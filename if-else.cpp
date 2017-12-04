@@ -33,5 +33,14 @@ int main()
 		cout<<"Wrong choice."<<endl;
 	}
 
+	if(choice<3)
+	{
+		cout<<"Sufficient Privileges."<<endl;
+	}
+	else
+	{
+		cout<<"Insufficient Privileges."<<endl;
+	}
+
 return 0;
 }
