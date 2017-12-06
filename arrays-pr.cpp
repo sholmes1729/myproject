@@ -2,7 +2,7 @@
 #include <iostream>
 using namespace std;
 int main() {
-
+/*
 	int table[10];
 
 	int a=0;
@@ -29,4 +29,18 @@ int main() {
 	}
 
 	return 0;
+}
+
+*/
+
+//Alternative
+
+int TWELVE_TABLE[13];
+int MULTI = 12;
+
+for (int i = 0; i < 13; i++)
+{
+     TWELVE_TABLE[i] = i * MULTI;
+     std::cout << TWELVE_TABLE[i] << std::endl;
+}
 }
